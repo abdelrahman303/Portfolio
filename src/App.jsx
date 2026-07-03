@@ -3,6 +3,7 @@ import Lenis from '@studio-freight/lenis';
 import CustomCursor from './components/ui/CustomCursor';
 import Hero from './components/sections/Hero';
 import Projects from './components/sections/Projects';
+import Skills from './components/sections/Skills';
 
 function App() {
   useEffect(() => {
@@ -33,7 +34,9 @@ function App() {
       <CustomCursor />
       <main className="w-full bg-background selection:bg-neon-cyan/30">
         <Hero />
+        <Skills />
         <Projects />
+
         {/* Add your Skills, Experience, and Contact components here */}
       </main>
     </>

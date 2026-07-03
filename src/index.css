@@ -17,3 +17,8 @@
 .glass-panel {
   @apply bg-surface backdrop-blur-md border border-white/10 rounded-2xl;
 }
+
+.mask-edges {
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
